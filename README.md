@@ -1,1 +1,3 @@
-# geometry-gym
+# geometry-genius-resources
+
+
