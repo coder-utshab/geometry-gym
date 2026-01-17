@@ -158,16 +158,26 @@
       alt="Shoes" />
   </figure>
   <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <h2 class="card-title">Elipse</h2>
+    <p>Area = π * a * b</p>
+    <div class="flex gap-5">
+      <input class="w-24 text-3xl p-2 rounded-sm"
+      type="text" name="" id="ellipse-major-radius"
+      placeholder="major">
+      <input class="w-24 text-3xl p-2 rounded-sm"
+      type="text" name="" id="ellipse-minor-radius"
+      placeholder="minor">
+    </div>
+    <div>
+      <p>Area: <span id="ellipse-area">0</span></p>
+    </div>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
+       <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
     </div>
   </div>
 </div>
-
-            </div>
-            <!-- Are claculation container -->
+</div>
+            <!-- Area claculation container -->
              <div class="w-96 border-2 border-gray-700 rounded-md">
                 <h3 class="text-3xl text-center p-4">Area calculation</h3>
              </div>
@@ -177,6 +187,7 @@
   <script src="scripts/rectangle-area.js"></script>
   <script src="scripts/parallelogram.js"></script>
   <script src="scripts/pantagaon.js"></script>
+  <script src="scripts/elipse.js"></script>
 
 </body>
 </html>
