@@ -1,6 +1,6 @@
 /**
  * objective: get  base, height of a triangle . calculate the are by  using the provided 
- * formula. and then display they are.
+ * formula. and then display they area.
  * 
  * step-1 get base value of the triangle,
  * step-2 added an id in the base input field
