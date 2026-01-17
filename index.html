@@ -107,11 +107,54 @@
   </div>
 </div>
 
-
+<!-- rombosh card -->
 <div class="card bg-base-100 w-96 shadow-sm">
   <figure>
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src="./images/rhombus.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+<!-- pentagon card -->
+<div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="./images/pentagon.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Pantagaon</h2>
+    <p>Area = 0.5 * p * b</p>
+    <div class="flex gap-5">
+      <input class="w-24 text-2-xl p-2 rounded-sm"
+      type="text" name="" id="pentagon-perimeter"
+      placeholder="peri">
+      <input class="w-24 text-2-xl p-2 rounded-sm"
+      type="text" name="" id="pentagon-apothem"
+      placeholder="apo">
+    </div>
+    <div>
+      <p>Area: <span id="pentagon-area">0</span></p>
+    </div>
+    <div class="card-actions justify-end">
+      <button onclick="calculatePentagonArea()"
+      class="btn btn-primary w-full">calculate</button>
+    </div>
+  </div>
+</div>
+
+<!-- elipse card -->
+<div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="./images/ellipse.png"
       alt="Shoes" />
   </figure>
   <div class="card-body">
@@ -133,6 +176,7 @@
   <script src="cal.js"></script>
   <script src="scripts/rectangle-area.js"></script>
   <script src="scripts/parallelogram.js"></script>
+  <script src="scripts/pantagaon.js"></script>
 
 </body>
 </html>
